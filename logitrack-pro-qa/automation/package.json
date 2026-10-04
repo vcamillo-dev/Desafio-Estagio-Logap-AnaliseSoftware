@@ -1,0 +1,16 @@
+{
+  "name": "logitrack-pro-qa-automation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "cy:open": "cypress open --e2e",
+    "cy:run": "cypress run --e2e"
+  },
+  "devDependencies": {
+    "cypress": "^16.1.0"
+  },
+  "allowScripts": {
+    "cypress": true
+  }
+}
